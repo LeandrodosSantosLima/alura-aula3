@@ -63,6 +63,11 @@ body{
     font-family: var(--fonte-primaria);
 }
 
+.apresentacao__conteudo__sub__titulo{
+    font-size: 1.5rem;
+    font-family: var(--fonte-primaria);
+}
+
 .apresentacao__conteudo__texto{
     font-size: 1.5rem;
     font-family: var(--fonte-sucundaria);
@@ -103,6 +108,10 @@ body{
 background-color: var(--cor-hover);
 }
 
+.apresentacao__curriculo__imagen {
+    width: 30%;
+}
+
 .apresentacao__imagem {
     width: 50%;
 }
@@ -118,6 +127,17 @@ background-color: var(--cor-hover);
 }
 
 @media (max-width: 1200px) {
-  .apresentacao {flex-direction: column-reverse;
+  .cabecalho {
+        padding: 10%;
+    }
+  .cabecalho__menu {
+    justify-content: center;
+  }
+  .apresentacao {
+    flex-direction: column-reverse;
+    padding: 5%;
 }
+  .apresentacao__conteudo {
+    width: auto;
+  }
 }
